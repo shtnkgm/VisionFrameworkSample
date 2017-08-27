@@ -1,8 +1,9 @@
-# VisionFrameworkSample
+## 概要
 iOS11のVisionFrameworkのサンプル
 
-# 機械学習モデルのライセンスについて
-このサンプルアプリは、以下のMITライセンスの学習済みモデルを含みます。
+## ライセンス
+このサンプルコード自体のライセンスは[LICENSE](https://github.com/shtnkgm/VisionFrameworkSample/blob/master/LICENSE)をご確認ください。
+またこのサンプルアプリは、MITライセンスで配布されている、以下の学習済みモデルを含みます。
 
 ```
 Model Name: ResNet50
