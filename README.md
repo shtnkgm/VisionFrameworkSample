@@ -1,6 +1,8 @@
 ## 概要
 iOS11のVisionFrameworkのサンプル
 
+<img src="./VisionDemo.gif" width="500px">
+
 ## ライセンス
 このサンプルコード自体のライセンスは[LICENSE](https://github.com/shtnkgm/VisionFrameworkSample/blob/master/LICENSE)をご確認ください。
 またこのサンプルアプリは、MITライセンスで配布されている、以下の学習済みモデルを含みます。
