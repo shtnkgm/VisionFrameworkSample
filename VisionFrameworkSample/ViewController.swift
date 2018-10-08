@@ -75,8 +75,7 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         }
         
         // 画像認識リクエストを作成（引数はモデルとハンドラ）
-        let request = VNCoreMLRequest(model: model) {
-            [weak self] (request: VNRequest, error: Error?) in
+        let request = VNCoreMLRequest(model: model) { [weak self] (request: VNRequest, error: Error?) in
             guard let results = request.results as? [VNClassificationObservation] else { return }
             
             // 判別結果とその確信度を上位3件まで表示
